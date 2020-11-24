@@ -6,8 +6,23 @@
 			<button type="picture" icon="camera_32x32" />
 			<button type="textnote" icon="text_32x32" />
 		</row>
-		
+
 		<row>
+			<button type="tag" label="@string/tag.good" icon="button_gut" />
+			<button type="tag" label="@string/tag.medium" icon="button_mittel" />
+			<button type="tag" label="@string/tag.bad" icon="button_schlecht" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.angst" icon="button_angstraum" />
+			<button type="tag" label="@string/tag.barriere" icon="button_barriere" />
+			<button type="tag" label="@string/tag.fussgaenger" icon="button_fussgaenger" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.fahrrad" icon="button_fahrrad" />
+			<button type="tag" label="@string/tag.oepnv" icon="button_oepnv" />
+			<button type="tag" label="@string/tag.miv" icon="button_miv" />
+		</row>
+		<!--row>
 			<button type="page" label="@string/tag.misc" icon="button_misc" targetlayout="misc"  />
 			<button type="page" label="@string/tag.restriction" icon="button_restriction" targetlayout="restriction"  />
 			<button type="page" label="@string/tag.car" icon="button_car" targetlayout="car"  />
@@ -21,7 +36,7 @@
 			<button type="page" label="@string/tag.way" icon="button_way" targetlayout="way"  />
 			<button type="page" label="@string/tag.track" icon="button_track" targetlayout="track"  />
 			<button type="page" label="@string/tag.landuse" icon="button_landuse" targetlayout="landuse"  />
-		</row>
+		</row-->
 	</layout>
 
 	<layout name="misc">

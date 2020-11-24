@@ -6,10 +6,25 @@
 			<button type="picture" icon="camera_32x32" />
 			<button type="textnote" icon="text_32x32" />
 		</row>
-	       
+
 		<row>
+			<button type="tag" label="@string/tag.good" icon="button_gut" />
+			<button type="tag" label="@string/tag.medium" icon="button_mittel" />
+			<button type="tag" label="@string/tag.bad" icon="button_schlecht" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.angst" icon="button_angstraum" />
+			<button type="tag" label="@string/tag.barriere" icon="button_barriere" />
+			<button type="tag" label="@string/tag.fussgaenger" icon="button_fussgaenger" />
+		</row>
+		<row>
+			<button type="tag" label="@string/tag.fahrrad" icon="button_fahrrad" />
+			<button type="tag" label="@string/tag.oepnv" icon="button_oepnv" />
+			<button type="tag" label="@string/tag.miv" icon="button_miv" />
+		</row>
+		<!--row>
 			<button type="page" label="@string/tag.misc" icon="button_misc" targetlayout="misc"  />
-			<button type="page" label="@string/tag.restriction" icon="button_restriction" targetlayout="restriction"  />
+			<button type="page" label="@string/tag.reallabor" icon="button_rls" targetlayout="reallabor"  />
 			<button type="page" label="@string/tag.car" icon="button_car" targetlayout="car"  />
 		</row>
 		<row>
@@ -21,7 +36,7 @@
 			<button type="page" label="@string/tag.way" icon="button_way" targetlayout="way"  />
 			<button type="page" label="@string/tag.track" icon="button_track" targetlayout="track"  />
 			<button type="page" label="@string/tag.landuse" icon="button_landuse" targetlayout="landuse"  />
-		</row>
+		</row-->
 	</layout>
 
 	<layout name="misc">
@@ -47,26 +62,26 @@
 		</row>
 	</layout>
 
-	<layout name="restriction">
+	<layout name="reallabor">
 		<row>
 			<button type="voicerec" icon="voice_32x32" />
 			<button type="picture" icon="camera_32x32" />
 			<button type="textnote" icon="text_32x32" />
 		</row>
 		<row>
-			<button type="tag" label="@string/tag.restriction_30" icon="button_restriction" />
-			<button type="tag" label="@string/tag.restriction_50" icon="button_restriction" />
-			<button type="tag" label="@string/tag.restriction_80" icon="button_restriction" />
+			<button type="tag" label="@string/tag.good" icon="button_gut" />
+			<button type="tag" label="@string/tag.medium" icon="button_mittel" />
+			<button type="tag" label="@string/tag.bad" icon="button_schlecht" />
 		</row>
 		<row>
-			<button type="tag" label="@string/tag.restriction_100" icon="button_restriction" />
-			<button type="tag" label="@string/tag.restriction_110" icon="button_restriction" />
-			<button type="tag" label="@string/tag.restriction_120" icon="button_restriction" />
+			<button type="tag" label="@string/tag.angst" icon="button_angstraum" />
+			<button type="tag" label="@string/tag.barriere" icon="button_barriere" />
+			<button type="tag" label="@string/tag.fussgaenger" icon="button_fussgaenger" />
 		</row>
 		<row>
-			<button type="tag" label="@string/tag.restriction_no_exit" icon="button_restriction_no_exit" />
-			<button type="tag" label="@string/tag.restriction_traffic_light" icon="button_restriction_traffic_light" />
-			<button type="tag" label="@string/tag.restriction_one_way" icon="button_restriction_one_way" />
+			<button type="tag" label="@string/tag.fahrrad" icon="button_fahrrad" />
+			<button type="tag" label="@string/tag.oepnv" icon="button_oepnv" />
+			<button type="tag" label="@string/tag.miv" icon="button_miv" />
 		</row>
 	</layout>
 

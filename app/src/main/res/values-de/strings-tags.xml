@@ -2,6 +2,7 @@
 <resources>
   <string name="tag.misc">Verschiedenes</string>
   <string name="tag.restriction">Beschränkung</string>
+  <string name="tag.reallabor">Reallabor</string>
   <string name="tag.car">Auto</string>
   <string name="tag.tourism">Tourismus</string>
   <string name="tag.amenity">Einrichtungen</string>

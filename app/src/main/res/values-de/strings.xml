@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <!--Generic strings-->
-  <string name="app_name">OSMTracker für Android™</string>
-  <string name="app_short_name">OSMTracker</string>
-  <string name="app_description">Inspiriert von OSMTracker auf Windows Mobile. OSMTracker ermöglicht die Aufzeichnung Ihrer Routen, das Markieren signifikanter Wegpunkte (z. B. durch Sprachaufnahme oder Foto) und dessen Export in eine GPX-Datei zur weiteren Bearbeitung mit OpenStreetMap-Werkzeugen wie JOSM.</string>
+  <string name="app_name">Reallabor tracker</string>
+  <string name="app_short_name">Reallabor</string>
   <!--TrackLogger-->
+  <string name="app_description">Inspiriert durch OSMTracker für Android.</string>
   <string name="tracklogger">Routen-Aufzeichner</string>
   <string name="tracklogger_waiting_gps">Warte auf GPS-Fix vor Tastenaktivierung…</string>
   <string name="tracklogger_voicerec_title">Sprachaufnahme</string>
@@ -38,7 +38,7 @@
   <string name="trackmgr_contextmenu_resume">Routenaufnahme fortsetzen</string>
   <string name="trackmgr_contextmenu_delete">Löschen</string>
   <string name="trackmgr_contextmenu_export">Als GPX exportieren</string>
-  <string name="trackmgr_contextmenu_osm_upload">Zu OpenStreetMap hochladen</string>
+  <string name="trackmgr_contextmenu_osm_upload">Zum Reallabor hochladen</string>
   <string name="trackmgr_contextmenu_display">Auf Karte anzeigen</string>
   <string name="trackmgr_contextmenu_details">Details</string>
   <string name="trackmgr_contextmenu_title">Route #{0}</string>

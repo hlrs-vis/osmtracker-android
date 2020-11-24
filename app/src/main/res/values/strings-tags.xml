@@ -3,6 +3,7 @@
 
 	<string name="tag.misc">Misc</string>
 	<string name="tag.restriction">Restriction</string>
+	<string name="tag.reallabor">Reallabor</string>
 	<string name="tag.car">Car</string>
 	<string name="tag.tourism">Tourism</string>
 	<string name="tag.amenity">Amenity</string>
@@ -19,6 +20,15 @@
 	<string name="tag.misc_toilets">Toilets</string>
 	<string name="tag.misc_shelter">Shelter</string>
 	<string name="tag.misc_surveillance">Surveillance</string>
+	<string name="tag.good">Good</string>
+	<string name="tag.medium">Medium</string>
+	<string name="tag.bad">Bad</string>
+	<string name="tag.angst">Angst</string>
+	<string name="tag.barriere">Barriere</string>
+	<string name="tag.fussgaenger">Fussgaenger</string>
+	<string name="tag.fahrrad">Fahrrad</string>
+	<string name="tag.oepnv">Öpnv</string>
+	<string name="tag.miv">Miv</string>
 	<string name="tag.restriction_20">Max 20</string>
 	<string name="tag.restriction_30">Max 30</string>
 	<string name="tag.restriction_40">Max 40</string>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<!-- Generic strings -->
-	<string name="app_name">OSMTracker for Android™</string>
-	<string name="app_short_name">OSMTracker</string>
-	<string name="app_description">Inspired by OSMTracker on Windows Mobile, it allows you to track your journeys, mark significant way points (Voice recording, photos), export them in GPX format for later use with Open Street Map tools like JOSM.</string>
+	<string name="app_name">Reallabor Tracker</string>
+	<string name="app_short_name">Reallabor</string>
+	<string name="app_description">Inspired by OSMTracker for android.</string>
 
 	<!-- TrackLogger -->
 	<string name="tracklogger">Track logger</string>
@@ -41,7 +41,7 @@
 	<string name="trackmgr_contextmenu_resume">Resume tracking</string>
 	<string name="trackmgr_contextmenu_delete">Delete</string>
 	<string name="trackmgr_contextmenu_export">Export as GPX</string>
-	<string name="trackmgr_contextmenu_osm_upload">Upload to OpenStreetMap</string>
+	<string name="trackmgr_contextmenu_osm_upload">Upload to Reallabor</string>
 	<string name="trackmgr_contextmenu_display">Display</string>
 	<string name="trackmgr_contextmenu_details">Details</string>
 	<string name="trackmgr_contextmenu_title">Track #{0}</string>

@@ -132,18 +132,18 @@ public class OpenStreetMapUpload extends TrackDetailEditor {
 	 * or ask the user to authenticate via the browser.
 	 */
 	private void startUpload() {
-		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+		/*SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		if ( prefs.contains(OSMTracker.Preferences.KEY_OSM_OAUTH_TOKEN)
 				&& prefs.contains(OSMTracker.Preferences.KEY_OSM_OAUTH_SECRET)) {
 			// Re-use saved token
 			oAuthConsumer.setTokenWithSecret(
 					prefs.getString(OSMTracker.Preferences.KEY_OSM_OAUTH_TOKEN, ""),
-					prefs.getString(OSMTracker.Preferences.KEY_OSM_OAUTH_SECRET, ""));
+					prefs.getString(OSMTracker.Preferences.KEY_OSM_OAUTH_SECRET, ""));*/
 			uploadToOsm();
-		} else {
+		/*} else {
 			// Open browser and request token
 			new RetrieveRequestTokenTask(this, oAuthProvider, oAuthConsumer, OAUTH_CALLBACK_URL+trackId).execute();
-		}
+		}*/
 	}
 
 	/**

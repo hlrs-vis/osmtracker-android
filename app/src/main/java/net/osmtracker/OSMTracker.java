@@ -49,7 +49,7 @@ public class OSMTracker {
 
 		// Default values
 		public final static String VAL_STORAGE_DIR = "/osmtracker";
-		public final static String VAL_VOICEREC_DURATION = "2";
+		public final static String VAL_VOICEREC_DURATION = "20";
 		public final static String VAL_UI_THEME = "net.osmtracker:style/DefaultTheme";
 		public final static boolean VAL_GPS_CHECKSTARTUP = true;
 		public final static boolean VAL_GPS_IGNORE_CLOCK = false;
@@ -89,7 +89,7 @@ public class OSMTracker {
 		public final static String VAL_UI_ORIENTATION = VAL_UI_ORIENTATION_NONE;
 		
 		public final static String VAL_UI_MAP_TILE_MAPNIK = "MAPNIK";
-
+		
 		//default values for repository settings
 		public final static String VAL_GITHUB_USERNAME = "labexp";
 		public final static String VAL_REPOSITORY_NAME = "osmtracker-android-layouts";
